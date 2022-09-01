@@ -1,0 +1,24 @@
+Q) Happy Number
+	
+	
+	A number is called happy if it leads to 1 after a sequence of steps wherein each step number is replaced by the sum of squares of its each 
+	digit, that is if we start with Happy Number and keep replacing it with digits square sum, we reach 1.
+
+
+	for eg: int n=19;
+	
+	1^2 + 9^2 = 82
+	8^2 + 2^2 = 68
+	6^2 + 8^2 = 100
+	1^2 + 0^2 + 0^2 = 1;
+	
+	As this lead us to 1, Hence 19 is a Happy Number.
+	
+	eg: int n = 20; this leads to 4, Hence 20 is Not a Happy Number.
+
+	Approch:
+		
+		Step1: square the each digit of the given number and sum it.
+		Step2: then check the sum is equal to 1 or not.
+		Step3: If step2 fails then check weather we can proceed further means can perform Step1 again.
+		Step4: perform the above steps again and again until the given number becomes to single digit.
