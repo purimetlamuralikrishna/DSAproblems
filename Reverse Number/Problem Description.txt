@@ -1,0 +1,8 @@
+Q) Reverse given number ?
+
+	Question Explanation: Reverse the given Number from 12345 to 54321;
+
+	Solution: step1: perform modulus operation on given number with 10.
+		  step2: multiply the reverse integer with 10 and add the first step result to reverse integer.
+		  step3: divide the number with 10 and take floor value.
+		  step4: perform this operations until given number becomes 0.
