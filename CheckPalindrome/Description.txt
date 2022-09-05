@@ -1,0 +1,2 @@
+Q)  Check the String is a Palindrome or also check by removing any character in the String makes it as a palindrome. 
+	If the given string satisfies any one of the above statements then print "YES" else "NO"?
