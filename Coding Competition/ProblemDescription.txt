@@ -1,0 +1,25 @@
+Q) There is a coding Tournament where 4 clubs are going to compete. Since the team selection is very critical in this competition,Rohit asked Harshit 
+   to help him in the team selection process.There is a long queue of students from four clubs. Each student of a club have a different roll number.
+   Whenever a new student will come, he will search for his clubmate from the end of the queue. 
+   As soon as he will find any of the club-mate in the queue, he will stand behind him, otherwise he will stand at the end of the queue. 
+   At any moment Harshit will ask the student, who is standing in front of the queue, to come and give his name and Harshit will remove him from the queue. 
+   
+
+   There are Q operations of one of the following types:
+
+   E a b: A new student of club a whose roll number is b will stand in queue according to the method mentioned above.
+
+   D: Harshit will ask the student, who is standing in front of the queue, to come and put his name and Harshit will remove him from the queue
+
+
+
+	Eg)   E 1 1
+	      E 2 1
+	      E 1 2
+  	      D
+	      D
+
+		Ans:  	1 1
+			1 2
+
+
