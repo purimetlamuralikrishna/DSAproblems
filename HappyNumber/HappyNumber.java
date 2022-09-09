@@ -9,7 +9,7 @@ class HappyNumber{
 
 	public static boolean isNumberHappy(int num){
 	
-		if(num==1||num==7){
+		if(num==1){
 			return true;
 		}
 	
