@@ -1,0 +1,19 @@
+Q)	Description
+
+		You are given a string of size n, you task is to convert it to a palindrome by performing the following move once
+
+		In one move you can choose any character and delete all its occurences from the the string.
+		If you can form a palindrome by deleting all occurences of one character from it then output "YES" , else "NO"
+
+
+
+
+	Example:						Ans:
+		5						YES
+		abcba
+
+		9						YES
+		aaaaakaaa
+
+		5						NO
+		abcabc
