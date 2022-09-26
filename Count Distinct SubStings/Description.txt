@@ -1,0 +1,17 @@
+Q)  Description:
+
+	Given a string s of length n, find out the number of distinct substrings possible from the given string.
+
+
+
+
+
+	Eg: 	5				Ans: 	15 
+		abcde
+		
+		3					3
+		aaa
+
+
+
+	Hint: 	Use Map
