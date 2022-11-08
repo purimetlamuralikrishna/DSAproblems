@@ -1,0 +1,6 @@
+
+Q) Find the duplicates in the given array, where the elememts starts from 1 to n-1. n is given array length.
+   return the duplicate value or -1 if not available.
+
+
+	eg:	1 2 3 1 4 		Ans: 1
